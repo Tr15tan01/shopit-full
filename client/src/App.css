@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.m-3 {
+  margin-left: 24px;
+}
+
+/* style all links default  */
+/* a {
+  text-decoration: none;
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+} */
+
+.dark {
+  background-color: black;
+  color: gray;
+}
+
+.shadow {
+  box-shadow: 6px 6px 12px 3px lightgray;
+}
+
+/* dropdown menu */
+
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: teal;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 9px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #68b0b9;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: inherit;
+}
+
+/* end of dropdown */
+
+/* footer */
+.footer.segment {
+  padding: 5em 0em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
